@@ -1,0 +1,27 @@
+@media screen and ( max-width: 520px){
+    body{
+        width: 100%;
+    }
+    .main-contacto{
+        section{
+            .div-form{
+                width: 300px;
+                padding: 30px;
+                height: 350px;
+                form{
+                    width: 300px;
+                    padding-right: 50px;
+                    
+                    h1{
+                        text-align: center;
+                    }
+                    .boton{
+                        width: 200px;
+                        margin:  10px 20px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

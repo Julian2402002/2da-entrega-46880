@@ -1,0 +1,16 @@
+{
+  "name": "2da-entrega",
+  "version": "1.0.0",
+  "description": ">  Se realizo el diseño de una pagina web dedicaba al diseño y construccion de casas llamada DHARMA.\r ### Herramientas:\r - HTML\r - CSS\r - JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss ./scss/style.scss ./css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  }
+}

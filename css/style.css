@@ -1,0 +1,443 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: black;
+}
+header h1 a {
+  max-width: 5rem;
+  color: white;
+  text-decoration: none;
+}
+header .abrir-menu {
+  display: none;
+}
+header nav .cerrar-menu {
+  display: none;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mooli", sans-serif;
+}
+
+main .origen {
+  padding: 0 50px;
+  background-image: url(../assets/images/fondo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+main .origen .contenido {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3.75rem;
+  position: relative;
+}
+main .origen .contenido h1 {
+  padding: 2.5rem;
+}
+
+.main-contacto {
+  padding: 100px;
+  background-image: url(../assets/images/fondo.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.main-contacto section .div-form {
+  width: 25rem;
+  height: 40rem;
+  background-color: beige;
+  padding: 1.875rem;
+  margin: auto;
+  margin-top: 7.5rem;
+  border-radius: 0.625rem;
+  position: relative;
+}
+.main-contacto section .div-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+.main-contacto section .div-form form h1 {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.main-contacto section .div-form form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+}
+.main-contacto section .div-form form .boton {
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+.main-contacto section .div-form form textarea {
+  height: 80px;
+}
+
+.main-porta div {
+  width: 100%;
+}
+.main-porta div h1 {
+  color: black;
+  text-align: center;
+  margin: 20px 0px;
+}
+.main-porta section {
+  margin: 0px 20px;
+  width: 100%;
+  height: 800px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.main-porta section .estilo1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.main-porta section .estilo1 img {
+  height: 18.75rem;
+  margin: 20px;
+  margin-left: 150px;
+  align-self: center;
+}
+.main-porta section .estilo1 img:hover {
+  box-shadow: 10px 10px 0.625rem grey;
+}
+.main-porta section .estilo1 h1 {
+  text-align: center;
+}
+.main-porta section .estilo2 {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+.main-porta section .estilo2 img {
+  height: 18.75rem;
+  margin: 20px;
+  margin-left: 150px;
+}
+.main-porta section .estilo2 img:hover {
+  box-shadow: 10px 10px 0.625rem grey;
+}
+.main-porta section .estilo2 h1 {
+  text-align: center;
+}
+.main-porta section .estilo3 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.main-porta section .estilo3 img {
+  height: 18.75rem;
+  margin: 20px;
+  margin-left: 150px;
+}
+.main-porta section .estilo3 img:hover {
+  box-shadow: 10px 10px 0.625rem grey;
+}
+.main-porta section .estilo3 h1 {
+  text-align: center;
+}
+.main-porta section .estilo4 {
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+.main-porta section .estilo4 img {
+  height: 18.75rem;
+  margin: 20px;
+  margin-left: 150px;
+}
+.main-porta section .estilo4 img:hover {
+  box-shadow: 10px 10px 0.625rem grey;
+}
+.main-porta section .estilo4 h1 {
+  text-align: center;
+}
+.main-porta section .estilo5 {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+.main-porta section .estilo5 img {
+  height: 18.75rem;
+  margin: 20px;
+  margin-left: 150px;
+}
+.main-porta section .estilo5 img:hover {
+  box-shadow: 10px 10px 0.625rem grey;
+}
+.main-porta section .estilo5 h1 {
+  text-align: center;
+}
+.main-porta section .estilo6 {
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
+.main-porta section .estilo6 img {
+  height: 18.75rem;
+  margin: 20px;
+  margin-left: 150px;
+}
+.main-porta section .estilo6 img:hover {
+  box-shadow: 10px 10px 0.625rem grey;
+}
+.main-porta section .estilo6 h1 {
+  text-align: center;
+}
+
+.main-quienes {
+  height: 50rem;
+}
+.main-quienes section {
+  display: flex;
+  justify-content: space-between;
+  height: 863px;
+}
+.main-quienes section .nosotros {
+  background-color: #FFC6AC;
+  width: 25rem;
+  height: 60rem;
+}
+.main-quienes section .nosotros h1 {
+  margin: 50px;
+  text-align: center;
+}
+.main-quienes section .nosotros p {
+  margin: 50px;
+  text-align: center;
+  align-items: center;
+}
+.main-quienes section .empresa {
+  background-color: #FFF6DC;
+  width: 25rem;
+  height: 60rem;
+}
+.main-quienes section .empresa h1 {
+  margin: 50px;
+  text-align: center;
+}
+.main-quienes section .empresa p {
+  margin: 50px;
+  text-align: center;
+  align-items: center;
+}
+.main-quienes section .servicios {
+  background-color: #C4C1A4;
+  width: 25rem;
+  height: 60rem;
+  padding: 0px 20px;
+}
+.main-quienes section .servicios h1 {
+  margin: 50px;
+  text-align: center;
+}
+.main-quienes section .servicios p ul {
+  margin: 0px 10px;
+  text-decoration: none;
+}
+.main-quienes section .servicios p ul li {
+  list-style: none;
+  text-decoration: none;
+  margin: 0px 10px;
+}
+.main-quienes section .experiencia {
+  background-color: #9E9FA5;
+  width: 25rem;
+  height: 60rem;
+}
+.main-quienes section .experiencia h1 {
+  margin: 50px;
+  text-align: center;
+}
+.main-quienes section .experiencia p {
+  margin: 50px;
+  text-align: center;
+  align-items: center;
+}
+.main-quienes section .contactanos {
+  background-color: #ffacba;
+  width: 25rem;
+  height: 60rem;
+}
+.main-quienes section .contactanos h1 {
+  margin: 50px;
+  text-align: center;
+}
+.main-quienes section .contactanos p {
+  margin: 50px;
+  text-align: center;
+  align-items: center;
+}
+.main-quienes section .contactanos p a {
+  text-decoration: none;
+}
+
+.main-dispo {
+  background-image: url(../assets/images/fondo2.jpg);
+  padding: 0 50px;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+.main-dispo section {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+.main-dispo section h1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+  color: white;
+}
+.main-dispo section img {
+  grid-column: 1/3;
+  grid-row: 2/9;
+  justify-self: center;
+}
+.main-dispo section p {
+  grid-column: 5/6;
+  grid-row: 4/5;
+  color: white;
+}
+.main-dispo section iframe {
+  grid-column: 5/6;
+  grid-row: 5/10;
+}
+
+@media screen and (max-width: 800px) {
+  header .cerrar-menu {
+    display: block;
+    border: 0;
+    font-size: 1.25rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+  }
+  header .abrir-menu {
+    display: block;
+    border: 0;
+    font-size: 1.25rem;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+  }
+  header nav {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1c1c1c;
+    padding: 2rem;
+  }
+  header .nav.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+  header ul {
+    flex-direction: column;
+    align-items: end;
+    z-index: 2;
+  }
+  .main-index section div {
+    justify-content: space-between;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    width: 100%;
+  }
+  .main-index section div {
+    width: 20px;
+    padding-right: 100px;
+  }
+  .main-index section div h1 {
+    width: 100%;
+    font-size: 20px;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 520px) {
+  body {
+    width: 100%;
+  }
+  .main-contacto section .div-form {
+    width: 300px;
+    padding: 30px;
+    height: 350px;
+  }
+  .main-contacto section .div-form form {
+    width: 300px;
+    padding-right: 50px;
+  }
+  .main-contacto section .div-form form h1 {
+    text-align: center;
+  }
+  .main-contacto section .div-form form .boton {
+    width: 200px;
+    margin: 10px 20px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .main-contacto section {
+    width: 250px;
+  }
+  .main-contacto section .div-form {
+    width: 250px;
+    padding: 30px;
+    height: 500px;
+  }
+  .main-contacto section .div-form form {
+    padding-left: 20px;
+    width: 200px;
+  }
+  .main-contacto section .div-form form h1 {
+    font-size: 20px;
+  }
+  .main-contacto section .div-form form .boton {
+    margin-right: 10px;
+    width: 170px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .main-quienes .section-quienes {
+    flex-direction: column;
+  }
+  .main-quienes .section-quienes div {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

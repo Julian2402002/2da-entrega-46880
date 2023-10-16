@@ -1,0 +1,45 @@
+.main-contacto{
+    padding: 100px;
+    background-image:url(../assets/images/fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    section{
+        .div-form{
+            width: 25rem;
+            height: 40rem;
+            background-color: beige;
+            padding: 1.875rem;
+            margin: auto;
+            margin-top: 7.5rem;
+            border-radius: .625rem;
+            position:relative;
+            form{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 100%;
+                height: 100%;
+                h1{
+                    padding-bottom: 20px;
+                    text-align: center;
+                }
+                input{
+                    width: 100%;
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin-bottom: 16px;
+                    border: 1px solid black;
+                }
+                .boton{
+                    background-color: black;
+                    color: white;
+                    font-size: 30px;
+                }
+                textarea{
+                    height: 80px;
+                }
+            }
+        }
+    }
+}

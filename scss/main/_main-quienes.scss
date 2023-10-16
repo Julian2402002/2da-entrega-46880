@@ -1,0 +1,88 @@
+.main-quienes{
+    height: 50rem;
+    section{
+        display: flex;
+        justify-content: space-between;
+        height: 863px;
+        .nosotros{
+            background-color: #FFC6AC;
+            width: 25rem;
+            height: 60rem;
+            h1{
+                margin: 50px;
+                text-align: center;
+            }
+            p{
+                margin: 50px;
+                text-align: center;
+                align-items: center;
+            }
+        }
+        .empresa{
+            background-color: #FFF6DC;
+            width: 25rem;
+            height: 60rem;
+            h1{
+                margin: 50px;
+                text-align: center;
+            }
+            p{
+                margin: 50px;
+                text-align: center;
+                align-items: center;
+            }
+        }
+        .servicios{
+            background-color: #C4C1A4;
+            width: 25rem;
+            height: 60rem;
+            padding: 0px 20px;
+            h1{
+                margin: 50px;
+                text-align: center;
+            }
+            p{
+                ul{
+                    margin: 0px 10px;
+                    text-decoration: none;
+                    li{
+                        list-style: none;
+                        text-decoration: none;
+                        margin: 0px 10px;
+                    }
+                }
+            }
+        }
+        .experiencia{
+            background-color: #9E9FA5;
+            width: 25rem;
+            height: 60rem;
+            h1{
+                margin: 50px;
+                text-align: center;
+            }
+            p{
+                margin: 50px;
+                text-align: center;
+                align-items: center;
+            }
+        }
+        .contactanos{
+            background-color: #ffacba;
+            width: 25rem;
+            height: 60rem;
+            h1{
+                margin: 50px;
+                text-align: center;
+            }
+            p{
+                margin: 50px;
+                text-align: center;
+                align-items: center;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: black;
+    h1{
+        a{
+            max-width: 5rem;
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .abrir-menu{
+        display: none;
+    }
+    nav{
+        .cerrar-menu{
+            display: none; 
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap: 1rem;
+            li{
+                a{
+                    text-decoration: none;
+                    color: rgb(255, 255, 255);
+                }
+            }
+        }
+    }
+}
