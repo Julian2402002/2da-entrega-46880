@@ -110,101 +110,105 @@ main .origen .contenido h1 {
   margin: 0px 20px;
   width: 100%;
   height: 800px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
-  justify-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .main-porta section .estilo1 {
-  grid-column: 1/2;
-  grid-row: 1/3;
+  justify-self: flex-start;
+  width: 500px;
 }
 .main-porta section .estilo1 img {
+  margin: 0px 100px;
+  width: 300px;
   height: 18.75rem;
-  margin: 20px;
-  margin-left: 150px;
-  align-self: center;
 }
 .main-porta section .estilo1 img:hover {
   box-shadow: 10px 10px 0.625rem grey;
 }
 .main-porta section .estilo1 h1 {
-  text-align: center;
+  width: 500px;
+  height: 100px;
 }
 .main-porta section .estilo2 {
-  grid-column: 2/3;
-  grid-row: 1/3;
+  justify-self: center;
+  width: 500px;
 }
 .main-porta section .estilo2 img {
   height: 18.75rem;
-  margin: 20px;
-  margin-left: 150px;
+  width: 300px;
+  margin: 0px 100px;
 }
 .main-porta section .estilo2 img:hover {
   box-shadow: 10px 10px 0.625rem grey;
 }
 .main-porta section .estilo2 h1 {
-  text-align: center;
+  width: 500px;
+  height: 100px;
 }
 .main-porta section .estilo3 {
-  grid-column: 3/4;
-  grid-row: 1/3;
+  justify-self: flex-end;
+  width: 500px;
 }
 .main-porta section .estilo3 img {
   height: 18.75rem;
-  margin: 20px;
-  margin-left: 150px;
+  width: 300px;
+  margin: 0px 100px;
 }
 .main-porta section .estilo3 img:hover {
   box-shadow: 10px 10px 0.625rem grey;
 }
 .main-porta section .estilo3 h1 {
-  text-align: center;
+  width: 500px;
+  height: 100px;
 }
 .main-porta section .estilo4 {
-  grid-column: 1/2;
-  grid-row: 3/5;
+  justify-self: flex-start;
+  width: 500px;
 }
 .main-porta section .estilo4 img {
   height: 18.75rem;
-  margin: 20px;
-  margin-left: 150px;
+  width: 300px;
+  margin: 0px 100px;
 }
 .main-porta section .estilo4 img:hover {
   box-shadow: 10px 10px 0.625rem grey;
 }
 .main-porta section .estilo4 h1 {
-  text-align: center;
+  width: 500px;
+  height: 100px;
 }
 .main-porta section .estilo5 {
-  grid-column: 2/3;
-  grid-row: 3/5;
+  justify-self: center;
+  width: 500px;
 }
 .main-porta section .estilo5 img {
   height: 18.75rem;
-  margin: 20px;
-  margin-left: 150px;
+  width: 300px;
+  margin: 0px 100px;
 }
 .main-porta section .estilo5 img:hover {
   box-shadow: 10px 10px 0.625rem grey;
 }
 .main-porta section .estilo5 h1 {
-  text-align: center;
+  width: 500px;
+  height: 100px;
 }
 .main-porta section .estilo6 {
-  grid-column: 3/4;
-  grid-row: 3/5;
+  justify-self: flex-end;
+  width: 500px;
 }
 .main-porta section .estilo6 img {
   height: 18.75rem;
-  margin: 20px;
-  margin-left: 150px;
+  width: 300px;
+  margin: 0px 100px;
 }
 .main-porta section .estilo6 img:hover {
   box-shadow: 10px 10px 0.625rem grey;
 }
 .main-porta section .estilo6 h1 {
-  text-align: center;
+  width: 500px;
+  height: 100px;
 }
 
 .main-quienes {
@@ -302,31 +306,18 @@ main .origen .contenido h1 {
   background-position: center;
 }
 .main-dispo section {
+  display: flex;
   height: 100%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+  flex-wrap: wrap;
 }
-.main-dispo section h1 {
-  grid-column: 1/3;
-  grid-row: 1/2;
-  align-self: center;
-  justify-self: center;
+.main-dispo section .titulo {
+  justify-self: flex-start;
+  align-self: flex-start;
   color: white;
 }
-.main-dispo section img {
-  grid-column: 1/3;
-  grid-row: 2/9;
-  justify-self: center;
-}
-.main-dispo section p {
-  grid-column: 5/6;
-  grid-row: 4/5;
-  color: white;
-}
-.main-dispo section iframe {
-  grid-column: 5/6;
-  grid-row: 5/10;
+.main-dispo section .mapa {
+  justify-self: flex-start;
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 800px) {
@@ -377,28 +368,54 @@ main .origen .contenido h1 {
   body {
     width: 100%;
   }
-  .main-index section div {
-    width: 20px;
+  main .origen .contenido {
+    width: 100px;
     padding-right: 100px;
   }
-  .main-index section div h1 {
-    width: 100%;
+  main .origen .contenido h1 {
+    width: 150px;
+  }
+  .main-contacto section {
+    height: 350px;
+    padding-right: 80px;
+  }
+  .main-contacto section .div-form {
+    width: 10050px;
+    padding-right: 30px;
+    height: 350px;
+  }
+  .main-contacto section .div-form form {
+    width: 200px;
+    height: 250px;
+    padding-right: 30px;
+  }
+  .main-contacto section .div-form form h1 {
+    text-align: center;
+  }
+  .main-contacto section .div-form form .boton {
+    width: 200px;
+    margin: 10px 20px;
     font-size: 20px;
-    padding-right: 20px;
   }
 }
 @media screen and (max-width: 520px) {
   body {
     width: 100%;
   }
+  .main-contacto section {
+    width: 400px;
+    height: 450px;
+    padding-right: 80px;
+  }
   .main-contacto section .div-form {
-    width: 300px;
-    padding: 30px;
-    height: 350px;
+    width: 350px;
+    margin-right: 30px;
+    height: 450px;
   }
   .main-contacto section .div-form form {
     width: 300px;
-    padding-right: 50px;
+    height: 350px;
+    padding-right: 30px;
   }
   .main-contacto section .div-form form h1 {
     text-align: center;
@@ -411,24 +428,41 @@ main .origen .contenido h1 {
 }
 @media screen and (max-width: 380px) {
   .main-contacto section {
-    width: 250px;
+    height: 250px;
+    width: 210px;
+    padding-right: 80px;
+    align-items: center;
   }
   .main-contacto section .div-form {
-    width: 250px;
-    padding: 30px;
-    height: 500px;
+    width: 210px;
+    height: 400px;
   }
   .main-contacto section .div-form form {
-    padding-left: 20px;
     width: 200px;
+    height: 300px;
+    padding-right: 30px;
+    align-items: center;
+  }
+  .main-contacto section .div-form form textarea {
+    height: 100px;
+    width: 180px;
   }
   .main-contacto section .div-form form h1 {
     font-size: 20px;
+    text-align: center;
   }
   .main-contacto section .div-form form .boton {
-    margin-right: 10px;
-    width: 170px;
+    width: 180px;
+    margin: 10px 20px;
     font-size: 20px;
+  }
+  main .origen .contenido {
+    width: 100px;
+    padding-right: 100px;
+  }
+  main .origen .contenido h1 {
+    width: 150px;
+    font-size: 80px;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -437,6 +471,73 @@ main .origen .contenido h1 {
   }
   .main-quienes .section-quienes div {
     width: 100%;
+  }
+}
+@media screen and (max-width: 460px) {
+  .main-contacto section {
+    height: 350px;
+    width: 310px;
+    padding-right: 80px;
+  }
+  .main-contacto section .div-form {
+    width: 310px;
+    height: 350px;
+  }
+  .main-contacto section .div-form form {
+    width: 300px;
+    height: 250px;
+    padding-right: 30px;
+  }
+  .main-contacto section .div-form form textarea {
+    height: 100px;
+  }
+  .main-contacto section .div-form form h1 {
+    text-align: center;
+  }
+  .main-contacto section .div-form form .boton {
+    width: 200px;
+    margin: 10px 20px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main-contacto section {
+    height: 250px;
+    width: 210px;
+    padding-right: 80px;
+  }
+  .main-contacto section .div-form {
+    width: 210px;
+    height: 400px;
+  }
+  .main-contacto section .div-form form {
+    width: 200px;
+    height: 300px;
+    padding-right: 30px;
+    align-items: center;
+  }
+  .main-contacto section .div-form form textarea {
+    height: 100px;
+    width: 180px;
+  }
+  .main-contacto section .div-form form h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .main-contacto section .div-form form .boton {
+    width: 180px;
+    margin: 10px 20px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .main-dispo section img {
+    width: 300px;
+    margin: 80px;
+  }
+  .main-dispo section h1 {
+    margin: 20px;
+    height: 100px;
   }
 }
 

@@ -2,15 +2,40 @@
     body{
         width: 100%;
     }
-    .main-index{
-        section{
-            div{
-                width: 20px;
+    main{
+        .origen{
+            .contenido{
+                width: 100px;
                 padding-right:100px;
                 h1{
-                    width: 100%;
-                    font-size:20px;
-                    padding-right: 20px;
+                    width: 150px;
+                }
+            }
+        }
+    }
+    .main-contacto{
+        section{
+            height: 350px;
+            padding-right: 80px;
+            .div-form{
+                width: 10050px;
+                padding-right: 30px;
+                height: 350px;
+                form{
+                    
+                    width: 200px;
+                    height: 250px;
+                    padding-right: 30px;
+                    
+                    
+                    h1{
+                        text-align: center;
+                    }
+                    .boton{
+                        width: 200px;
+                        margin:  10px 20px;
+                        font-size: 20px;
+                    }
                 }
             }
         }
