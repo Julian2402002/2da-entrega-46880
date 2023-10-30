@@ -7,7 +7,6 @@
 - JS
 - SASS
 
-> Las paginas resposive del proyecto son:
-- inicio
-- contactos
-- quienes somos
+> Todas las paginas del proyecto son responsive.
+
+> El proyecto se subio a Netlify.
